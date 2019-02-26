@@ -1,6 +1,7 @@
 <div class="scroll">
   <div class="headers">
-  <h3>Notification title</h3>
-  <p> Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body Notification body</p>
+    <h3>@notification.title</h3>
   </div>
+  <%= raw Kramdown::Document.new(@notification.body).to_html %>
 </div>
+
