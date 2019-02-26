@@ -3,8 +3,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Roboto';
+  font-weight: lighter;
+  font-size: 30px;
 }
 
 .headers {
   text-align: center;
+  font-weight: lighter;
+  font-family: 'Roboto';
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+.scroll {
+  color: #5186A1;
 }
