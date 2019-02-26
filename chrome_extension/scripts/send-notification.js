@@ -14,9 +14,13 @@ Notification.requestPermission().then(function(result) {
 function spawnNotification(body, icon, title) {
   var options = {
       body: body,
-      icon: icon
+      icon: icon,
   };
-  var n = new Notification(title, options);
+  var n = new Notification("jade", options);
 }
 
-spawnNotification('Title', '../images/logo.png', 'Body')
+// <<<<<<< HEAD
+// spawnNotification('Title', '../images/logo.png', 'Body')
+// =======
+// spawnNotification('Stay hydrated: Your eyes need water. Drink 8 to 10 glass of water everyday to keep your entire body hydrated', 'jad')
+// >>>>>>> master

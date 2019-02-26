@@ -1,2 +1,7 @@
-<h3>New notification</h3>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam laborum, aperiam quam sequi iste ad aliquid facilis! </p>
+<div class="scroll">
+  <div class="headers">
+    <h3>@notification.title</h3>
+  </div>
+  <%= raw Kramdown::Document.new(@notification.body).to_html %>
+</div>
+
