@@ -13,9 +13,8 @@ notif1 = Notification.new(
   action: false,
   duration_since_chrome_on: 120,
   body: <<-MARKDOWN
-  **Blinking is great to prevent eye dryness.**
+  Blinking is great to prevent eye dryness.
 
-  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
   <iframe width="560" height="315" src="https://www.youtube.com/embed/TWo-qJvbc0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   MARKDOWN
 )

@@ -1,7 +1,12 @@
-<div class="scroll">
-  <div class="headers">
-    <h3><%= @notification.title %></h3>
+<div class="container">
+  <div class="scroll">
+    <div class="headers">
+      <h3><%= @notification.title %></h3>
+    </div>
+    <div class="notif-content">
+      <p>Don't forget to use our tips even when CoachEye isn't looking over you!</p>
+    </div>
   </div>
-  <%= raw Kramdown::Document.new(@notification.body).to_html %>
 </div>
+
 
