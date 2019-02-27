@@ -11,7 +11,7 @@ notif1 = Notification.new(title: 'Hello, before starting to work, check the alig
     action: false,
     duration_since_chrome_on: 0,
     body: <<-MARKDOWN
-How to position your monitor ?
+How to position your monitor?
 Easy, let\'s start the day together.
 
 Align your eyes with the top of your screen, it improves your working conditions.
