@@ -1,23 +1,25 @@
-function fetchData() {
-  const title = document.querySelector('title').innerText;
-  const url = window.location.href;
+// This was used in the Germain's example on Kitt.
 
-  return {
-    title: title,
-    url: url
-  }
-}
+// function fetchData() {
+//   const title = document.querySelector('title').innerText;
+//   const url = window.location.href;
 
-function sendData(data) {
-  const url = 'https://wagon-chat.herokuapp.com/engineering/messages';
-  fetch(url, {
-    method: 'POST',
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      "author": "Le Wagon chrome extension",
-      "content": `I've found something cool: ${data.title} on ${data.url}`
-    })
-  })
-}
+//   return {
+//     title: title,
+//     url: url
+//   }
+// }
 
-sendData(fetchData());
+// function sendData(data) {
+//   const url = 'https://wagon-chat.herokuapp.com/engineering/messages';
+//   fetch(url, {
+//     method: 'POST',
+//     headers: { "Content-Type": "application/json" },
+//     body: JSON.stringify({
+//       "author": "Le Wagon chrome extension",
+//       "content": `I've found something cool: ${data.title} on ${data.url}`
+//     })
+//   })
+// }
+
+// sendData(fetchData());
