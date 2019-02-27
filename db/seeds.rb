@@ -60,7 +60,7 @@ Look to your rightward corner and then shift your gaze gradually to the opposite
 The tiny eye muscles get more active and healthy with the spurt of blood pumped in from the shifting.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ybH5CAJhxso" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 MARKDOWN
 )
 notif4.save!
