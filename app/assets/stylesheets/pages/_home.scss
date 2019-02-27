@@ -1,4 +1,10 @@
 // Specific CSS for your home-page
+
+//Wrapper around yield
+.page-wrapper {
+  min-height: calc(100vh - 170px);
+}
+
 .list {
   display: flex;
   justify-content: center;
@@ -19,4 +25,6 @@
 
 .scroll {
   color: #5186A1;
+  margin: 20px;
 }
+
