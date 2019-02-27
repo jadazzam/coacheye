@@ -1,29 +1,18 @@
+Notification.requestPermission().then(function(result) {
+  // Si l'utilisateur est OK
+  if (result === "granted") {
+    var n = new Notification("Hey Jad, CoachEye is activated 🥳");
+  }
+
+  // Sinon, revenons en à un mode d'alerte classique
+  else {
+    alert("Sans l'activation des notifications, je ne pourrais pas protéger tes yeux 😢 !");
+  }
+
+});
+
 function createChromeNotification(notif) {
-
-  // chrome.notifications.create('yourNotification', {
-  //   type: 'basic',
-  //   iconUrl: 'images/logo.png',
-  //   title: notif.title,
-  //   message: notif.link,
-  //   buttons: [
-  //     { title: 'Mark' },
-  //     { title: 'Ignore' }
-  //   ]
-  // }, function callback(notificationId) {
-  //   console.log(notificationId)
-  //   // nothing necessary here, but required before Chrome 42
-  // });
-
-  // var notification = new Notification(notif.title, {
-  //     icon: 'images/logo.png',
-  //     body: "Hey there! You've been notified!",
-  //   });
-
-  //   notification.onclick = function () {
-  //     window.open(notif.link);
-  //   };
-
-  chrome.notifications.create('', {
+  var opt = {
     type: 'basic',
     iconUrl: 'images/logo.png',
     requireInteraction: false,
@@ -33,5 +22,6 @@ function createChromeNotification(notif) {
       { title: 'Mark' },
       { title: 'Ignore' }
     ]
-  })
-}
+  };
+  chrome.notifications.create('', opt)
+};
