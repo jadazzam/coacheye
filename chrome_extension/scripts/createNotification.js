@@ -1,4 +1,5 @@
 function createChromeNotification(notif) {
+
   // chrome.notifications.create('yourNotification', {
   //   type: 'basic',
   //   iconUrl: 'images/logo.png',
@@ -25,7 +26,12 @@ function createChromeNotification(notif) {
   chrome.notifications.create('', {
     type: 'basic',
     iconUrl: 'images/logo.png',
+    requireInteraction: false,
     title: notif.title,
-    message: notif.link
+    message: notif.link,
+    buttons: [
+      { title: 'Mark' },
+      { title: 'Ignore' }
+    ]
   })
 }
