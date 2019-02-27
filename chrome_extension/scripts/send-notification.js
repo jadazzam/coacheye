@@ -16,11 +16,5 @@ function spawnNotification(body, icon, title) {
       body: body,
       icon: icon,
   };
-  var n = new Notification("jade", options);
+  var n = new Notification(title, options);
 }
-
-// <<<<<<< HEAD
-// spawnNotification('Title', '../images/logo.png', 'Body')
-// =======
-// spawnNotification('Stay hydrated: Your eyes need water. Drink 8 to 10 glass of water everyday to keep your entire body hydrated', 'jad')
-// >>>>>>> master

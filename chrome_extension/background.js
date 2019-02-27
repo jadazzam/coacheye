@@ -1,14 +1,13 @@
-// console.log('hello from the otherside!')
-chrome.browserAction.onClicked.addListener((tab) => {
-  chrome.tabs.executeScript({
-    code: 'document.body.style.backgroundColor="#C3413B"',
-
-  //   buttons: [{
-  //     title: "Yes",
-  //     iconUrl: "/path/to/yesIcon.png"},
-  //     {
-  //     title: "No",
-  //     iconUrl: "/path/to/noIcon.png"
-  // }]
-  });
+chrome.notifications.create('yourNotification', {
+  type: 'basic',
+  iconUrl: 'images/logo.png',
+  title: 'My title',
+  message: 'This is my message',
+  buttons: [
+    { title: 'Mark' },
+    { title: 'Ignore' }
+  ]
+}, function callback(notificationId) {
+  console.log(notificationId)
+  // nothing necessary here, but required before Chrome 42
 });

@@ -12,45 +12,48 @@ notif1 = Notification.new(
   title: 'Time to blink!',
   action: false,
   duration_since_chrome_on: 120,
-  body: "
-    Blinking is great to prevent eye dryness.
+  body: <<-MARKDOWN
+  **Blinking is great to prevent eye dryness.**
 
-    ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-  "
+  ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/TWo-qJvbc0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  MARKDOWN
 )
 notif1.save!
 
-notif2 = Notification.new(title: 'Coffee time!',
-    action: true,
-    duration_since_chrome_on: 120,
-    body: '
-    Hey, it \'s time to grab a coffee and drink it while looking through the window".
-    *Watch an object at 20 feet (6 meters) for 20 seconds*
-    [Read more...](https://www.lasikmd.com/fr/blogue/cinq-conseils-pour-des-yeux-en-bonne-sante)
-    ',
-    )
-notif2.save!
 
-notif3 = Notification.new(title: 'Check the luminosity of your screen!',
-    action: false,
-    duration_since_chrome_on: 0,
-    body: '
-   Adjust the luminosity of your screen to make it alike the light of the room you are working on.
-   Your eyes need sufficient light to read and write, work on the computer or watch TV. In low light or dark, your eyes have to work harder than usual, causing strain.
-    ',
-    )
-notif3.save!
+# notif2 = Notification.new(title: 'Coffee time!',
+#     action: true,
+#     duration_since_chrome_on: 120,
+#     body: '
+#     Hey, it \'s time to grab a coffee and drink it while looking through the window".
+#     *Watch an object at 20 feet (6 meters) for 20 seconds*
+#     [Read more...](https://www.lasikmd.com/fr/blogue/cinq-conseils-pour-des-yeux-en-bonne-sante)
+#     ',
+#     )
+# notif2.save!
 
-notif4 = Notification.new(title: 'Check the alignment of your screen!',
-    action: false,
-    duration_since_chrome_on: 0,
-    body: '
-    ![How to position your monitor ?](//https://www.youtube.com/watch?v=TWo-qJvbc0c)
-![Image of monitor alignement](https://www.gvsu.edu/cms4/asset/30F6D8A1-9140-75C7-2CAACF4A83B9D5A8/monitor_angle.jpg)
-Align your eyes with the top of your screen, it improves your working conditions.
-    ',
-    )
-notif4.save!
+# notif3 = Notification.new(title: 'Check the luminosity of your screen!',
+#     action: false,
+#     duration_since_chrome_on: 0,
+#     body: '
+#   * Adjust the luminosity of your screen to make it alike the light of the room you are working on.
+#   * Your eyes need sufficient light to read and write, work on the computer or watch TV. In low light or dark, your eyes have to work harder than usual, causing strain.
+#     ',
+#     )
+# notif3.save!
+
+# notif4 = Notification.new(title: 'Check the alignment of your screen!',
+#     action: false,
+#     duration_since_chrome_on: 0,
+#     body: '
+#     ![How to position your monitor ?](//https://www.youtube.com/watch?v=TWo-qJvbc0c)
+# ![Image of monitor alignement](https://www.gvsu.edu/cms4/asset/30F6D8A1-9140-75C7-2CAACF4A83B9D5A8/monitor_angle.jpg)
+# Align your eyes with the top of your screen, it improves your working conditions.
+#     ',
+#     )
+# notif4.save!
+
 
 # notif5 = Notification.new(title: 'Time to palm!',
 #     body: 'Rub the palms of your hands vigorously, until they are warm and place them gently over your eyelids. Let the warmth of the palms transfer onto the eyes. You can feel the eye muscles relax as your eyes find relief in the darkness. Persist until the heat from the hands has been completely absorbed by the eyes. Repeat two to three times.',
