@@ -2,6 +2,7 @@
   <div class="headers">
     <h3><%= @notification.title %></h3>
   </div>
+  <div class="markdown-display"></div>
   <%= raw Kramdown::Document.new(@notification.body).to_html %>
 </div>
 
