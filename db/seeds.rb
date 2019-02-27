@@ -13,10 +13,10 @@ notif1 = Notification.new(title: 'Hello, before starting to work, check the alig
     body: <<-MARKDOWN
 How to position your monitor.
 <img src="https://www.dataflex-int.com/media/ergonomics/header_2160x1080@1x.jpg" width="100%" alt="Image of monitor alignement"/>
-How are you today ?
+How are you today?
 Let\'s start the day together.
-Align your eyes with the top of your screen , it improves your working conditions.
-See you later !'
+Align your eyes with the top of your screen, it improves your working conditions.
+See you later!
 MARKDOWN
 )
 notif1.save!
