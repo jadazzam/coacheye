@@ -21,6 +21,7 @@ MARKDOWN
 )
 notif1.save!
 
+
 notif2 = Notification.new(title: 'Lunch break! ',
     action: false,
     duration_since_chrome_on: 0,
