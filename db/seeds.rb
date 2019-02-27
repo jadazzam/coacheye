@@ -26,7 +26,7 @@ notif2 = Notification.new(title: 'Lunch break! 🌞',
     action: false,
     duration_since_chrome_on: 0,
     body: <<-MARKDOWN
-It's sunny outside, put your sunnglasses on!
+It's sunny outside, put your sunglasses on!
 Just like your skin, your eyes need protection from the sun’s ultraviolet (UV) rays.
 
 Good eye health starts with the food on your plate, nutrients like omega-3 fatty acids, lutein, zinc, and
@@ -41,7 +41,7 @@ notif3 = Notification.new(title: 'Coffee time! ☕',
     action: true,
     duration_since_chrome_on: 120,
     body: <<-MARKDOWN
-Hey, it \'s time to grab a coffee and drink it while looking through the window".
+Hey, it \'s time to grab a coffee and drink it while looking through the window.
 
 *Watch an object at 20 feet away (6 meters) for 20 seconds*
 
