@@ -7,4 +7,23 @@
 //   {title: 'notif4', link: 'lienversnotif4'}
 // ];
 
-setTimeout(createChromeNotification({title: 'notif2', link: 'lienversnotif2'}), 5000);
+// setTimeout(createChromeNotification({title: 'notif2', link: 'lienversnotif2'}));
+
+setTimeout( () => {
+  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
+},
+  1000
+)
+
+setTimeout( () => {
+  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
+},
+  2000
+)
+
+setTimeout( () => {
+  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
+},
+  10000
+)
+// setTimeout(createChromeNotification({title: 'notif2', link: 'lienversnotif2'}));
