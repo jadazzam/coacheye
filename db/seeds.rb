@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 Notification.destroy_all
-
+puts "Creating notification content..."
 
 notif1 = Notification.new(
   title: 'Time to blink!',
@@ -35,8 +35,8 @@ notif3 = Notification.new(title: 'Check the luminosity of your screen!',
     action: false,
     duration_since_chrome_on: 0,
     body: '
-  * Adjust the luminosity of your screen to make it alike the light of the room you are working on.
-  * Your eyes need sufficient light to read and write, work on the computer or watch TV. In low light or dark, your eyes have to work harder than usual, causing strain.
+   Adjust the luminosity of your screen to make it alike the light of the room you are working on.
+   Your eyes need sufficient light to read and write, work on the computer or watch TV. In low light or dark, your eyes have to work harder than usual, causing strain.
     ',
     )
 notif3.save!
@@ -97,6 +97,6 @@ notif4.save!
 # notif10.save!
 
 
-
+puts "Finished!"
 
 
