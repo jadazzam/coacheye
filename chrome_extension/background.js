@@ -8,39 +8,26 @@
 //   {title: 'notif4', link: 'lienversnotif4'}
 // ];
 
-const notification = (notifTitle, notifLink, duration) => {
+const notifs = {};
+
+const notification = (notif, duration) => {
   setTimeout( () => {
-    createChromeNotification({title: notifTitle, link: notifLink});
+    createChromeNotification({title: notif.title, link: notif.url, url: notif.url});
   },
     duration
   )
 };
 
-notification("notif1", "link1", 1000);
-notification("notif2", "link2", 2000);
-notification("notif3", "link3", 3000);
-notification("noti4", "link4", 4000);
-notification("notif5", "link5", 5000);
-// setTimeout( () => {
-//   createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
-// },
-//   2000
-// )
+fetch("http://localhost:3000/api/v1/notifications")
+  .then(response => response.json())
+  .then((data) => {
+    let seconds = 1000;
+    data.forEach((notif) => {
+      notification(notif, seconds);
+      seconds += 1000;
+    });
+  });
 
-// setTimeout( () => {
-//   createChromeNotification({title: 'notif3', link: 'lienversnotif3'});
-// },
-//   10000
-// )
-
-// setTimeout( () => {
-//   createChromeNotification({title: 'notif4', link: 'lienversnoti4'});
-// },
-//   30000
-// )
-
-// setTimeout( () => {
-//   createChromeNotification({title: 'notif5', link: 'lienversnotif5'});
-// },
-//   50000
-// )
+chrome.notifications.onClicked.addListener((id) => {
+  window.open(notifs[id].message);
+})
