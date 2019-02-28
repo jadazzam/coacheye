@@ -27,3 +27,7 @@ function createChromeNotification(notif) {
     notifs[id] = opt;
   });
 };
+
+// je construis l’API ==> cours d’aujourd’hui. C'est une API en GET. donc je
+// je récupère depuis le javascript ==> récupérer le fichier JSON avec title, link, body …
+// j’itère sur mon JSON et à chaque boucle j’appelle ma fonction notification.
