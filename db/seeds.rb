@@ -69,9 +69,9 @@ notif5 = Notification.new(title: 'Beer break! 🍻',
     action: false,
     duration_since_chrome_on: 0,
     body: <<-MARKDOWN
-Stand up and let's grab a beer! Cheers mates!
+<p class="text-center">Stand up and let's grab a beer! Cheers mates!</p>
 
-<iframe src="https://giphy.com/embed/6b8D22vANc2mPzs178" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fcbayern-6b8D22vANc2mPzs178">via GIPHY</a></p>
+<p class="text-center"><img src="https://media.giphy.com/media/6b8D22vANc2mPzs178/giphy.gif" height="480"></p>
 MARKDOWN
 )
 notif5.save!
