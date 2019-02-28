@@ -8,20 +8,26 @@
 //   {title: 'notif4', link: 'lienversnotif4'}
 // ];
 
-setTimeout( () => {
-  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
-},
-  1000
-)
+const notifs = {};
 
-setTimeout( () => {
-  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
-},
-  2000
-)
+const notification = (notif, duration) => {
+  setTimeout( () => {
+    createChromeNotification({title: notif.title, link: notif.url, url: notif.url});
+  },
+    duration
+  )
+};
 
-setTimeout( () => {
-  createChromeNotification({title: 'notif2', link: 'lienversnotif2'});
-},
-  10000
-)
+fetch("http://localhost:3000/api/v1/notifications")
+  .then(response => response.json())
+  .then((data) => {
+    let seconds = 1000;
+    data.forEach((notif) => {
+      notification(notif, seconds);
+      seconds += 1000;
+    });
+  });
+
+chrome.notifications.onClicked.addListener((id) => {
+  window.open(notifs[id].message);
+})
