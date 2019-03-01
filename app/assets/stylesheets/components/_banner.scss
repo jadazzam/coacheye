@@ -1,3 +1,14 @@
+.banner #logo {
+  position: absolute;
+
+    left: 40px;
+    top: 40px;
+
+  img {
+    width: 96px;
+  }
+}
+
 .banner {
   background-size: cover;
   background-position: center;

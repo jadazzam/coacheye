@@ -1,6 +1,11 @@
 Notification.destroy_all
 
+<<<<<<< HEAD
 notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
+=======
+
+notif1 = Notification.new(title: 'Best practices for a productive day!',
+>>>>>>> master
     action: false,
     duration_since_chrome_on: 0,
     message: 'Click here to learn how to comfort your eyes and optimize your productivity',
@@ -39,7 +44,8 @@ notif3 = Notification.new(title: 'Coffee time: 5 min break ☕️',
     message: 'You\'ve been working for too long. Short breaks are important for your eyes\' health and your productivity' ,
     body: <<-MARKDOWN
 <div class="flexes">
-<p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.</p>
+<p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.
+It's called the 20-20-20 rule: it helps you to resume a normal blink rate (we don't blink while lookng at a computer screen) and stops your eyes from drying out.</p>
  <p class="text-center"> <img src="https://static1.squarespace.com/static/59e943378fd4d2115362e8d3/t/5aa452ba9140b73db67c2751/1520720013988/nathan-dumlao-492751-unsplash.jpg" height="500px" width="600px" alt="Coffee cup"/> </p>
 </div>
 
