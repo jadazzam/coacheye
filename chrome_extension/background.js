@@ -12,7 +12,7 @@
 // });
 const notifs = {};
 
-fetch("http://localhost:3000/api/v1/notifications")
+fetch("https://www.coacheye.fr/api/v1/notifications")
   .then(response => response.json())
   .then((data) => {
     let seconds = 1000;
@@ -26,6 +26,3 @@ fetch("http://localhost:3000/api/v1/notifications")
 
   });
 })
-
-//chrome-extension://fkgbhlblcbpdpcpbffgplpebjjgjcdnf/5390b8ce-3939-4b1c-b32a-7f5437d8de76
-
