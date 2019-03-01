@@ -1,10 +1,33 @@
 .notif-content {
-  display: block;
+  // display: block;
+  // align-items: center;
+  // justify-content: space-between;
   height: 800px;
   margin: 0 auto;
   font-size: 17px;
-  width: 900px;
+  // width: 900px;
   letter-spacing: 2px;
   text-align: justify;
+  background: white;
+
+
+  p.description {
+    padding: 20px 20px;
+
+  }
 }
 
+.blocks {
+  display: block;
+  align-items: center;
+  text-align: justify;
+
+}
+
+
+.flexes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
