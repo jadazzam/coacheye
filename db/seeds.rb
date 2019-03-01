@@ -1,11 +1,6 @@
 Notification.destroy_all
 
-<<<<<<< HEAD
 notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
-=======
-
-notif1 = Notification.new(title: 'Best practices for a productive day!',
->>>>>>> master
     action: false,
     duration_since_chrome_on: 0,
     message: 'Click here to learn how to comfort your eyes and optimize your productivity',
