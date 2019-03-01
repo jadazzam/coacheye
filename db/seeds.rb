@@ -1,5 +1,6 @@
 Notification.destroy_all
 
+
 notif1 = Notification.new(title: 'Best practices for a productive day!',
     action: false,
     duration_since_chrome_on: 0,
@@ -8,7 +9,7 @@ notif1 = Notification.new(title: 'Best practices for a productive day!',
 <div class="blocks">
   <p class="description">How to position your monitor?
   Easy, let\'s start the day together! Align your eyes with the top of your screen, it improves your working conditions.</p>
-  <img src="https://www.dataflex-int.com/media/ergonomics/header_2160x1080@1x.jpg" width="100%" alt="Image of monitor alignement"/>
+  <img src="https://www.dataflex-int.com/media/ergonomics/header_2160x1080@1x.jpg" width="100%" alt="Image of monitor alignment"/>
   See you later!
 </div>
 MARKDOWN
@@ -39,7 +40,8 @@ notif3 = Notification.new(title: 'Coffee time! ☕',
     # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="flexes">
-<p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.</p>
+<p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.
+It's called the 20-20-20 rule: it helps you to resume a normal blink rate (we don't blink while lookng at a computer screen) and stops your eyes from drying out.</p>
  <p class="text-center"> <img src="https://static1.squarespace.com/static/59e943378fd4d2115362e8d3/t/5aa452ba9140b73db67c2751/1520720013988/nathan-dumlao-492751-unsplash.jpg" height="500px" width="600px" alt="Coffee cup"/> </p>
 </div>
 
