@@ -1,15 +1,10 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 Notification.destroy_all
 
-notif1 = Notification.new(title: 'Check the alignment of your screen! 🖥',
+
+notif1 = Notification.new(title: 'Best practices for a productive day!',
     action: false,
     duration_since_chrome_on: 0,
+    # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="blocks">
   <p class="description">How to position your monitor?
@@ -24,6 +19,7 @@ notif1.save!
 notif2 = Notification.new(title: 'Lunch break! 🌞',
     action: false,
     duration_since_chrome_on: 0,
+    # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="flexes">
   <img src="https://minimalistbaker.com/wp-content/uploads/2017/05/AMAZING-Vegan-Breakfast-Salad-Lemony-greens-sweet-potatoes-blueberries-hummus-and-hemp-seeds-vegan-plantbased-glutenfree-breakfast-recipe-768x1152.jpg" height="700px" width="500px"/>
@@ -41,6 +37,7 @@ notif2.save!
 notif3 = Notification.new(title: 'Coffee time! ☕',
     action: true,
     duration_since_chrome_on: 120,
+    # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="flexes">
 <p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.
@@ -55,6 +52,7 @@ notif3.save!
 notif4 = Notification.new(title: 'Yoga for your eyes! 👀',
     action: false,
     duration_since_chrome_on: 0,
+    # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="blocks">
 <p class="description">Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.
@@ -71,6 +69,7 @@ notif4.save!
 notif5 = Notification.new(title: 'Beer break! 🍻',
     action: false,
     duration_since_chrome_on: 0,
+    # message: 'this is the content',
     body: <<-MARKDOWN
 <div class="blocks">
   <p class="text-center"> Stand up and let's grab a beer! Cheers mates!</p>
