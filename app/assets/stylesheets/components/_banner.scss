@@ -1,3 +1,14 @@
+.banner #logo {
+  position: absolute;
+
+    left: 40px;
+    top: 40px;
+
+  img {
+    width: 96px;
+  }
+}
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -42,6 +53,8 @@
   right: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(229, 135, 127, 0.36));
 }
+
+
 
 p {
   margin: 27px 0 35px 0;
