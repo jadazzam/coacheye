@@ -1,4 +1,4 @@
-function createChromeNotification(notif) {
+const createChromeNotification = (notif) => {
   var opt = {
     type: 'basic',
     iconUrl: 'images/logo.png',
@@ -13,3 +13,17 @@ function createChromeNotification(notif) {
     notifs[id] = opt;
   });
 };
+
+const notification = (notif, duration) => {
+  setTimeout( () => {
+    createChromeNotification({title: notif.title, message: notif.message, url: notif.url});
+  },
+    duration
+  )
+};
+
+const clearPreviouses = (data) => {
+  data.forEach((notif) => {
+    chrome.notifications.clear(notif.url)
+  });
+}

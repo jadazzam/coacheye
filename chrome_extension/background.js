@@ -12,20 +12,6 @@
 // });
 const notifs = {};
 
-const notification = (notif, duration) => {
-  setTimeout( () => {
-    createChromeNotification({title: notif.title, message: notif.message, url: notif.url});
-  },
-    duration
-  )
-};
-
-const clearPreviouses = (data) => {
-  data.forEach((notif) => {
-    chrome.notifications.clear(notif.url)
-  });
-}
-
 fetch("http://localhost:3000/api/v1/notifications")
   .then(response => response.json())
   .then((data) => {
