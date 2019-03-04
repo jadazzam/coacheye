@@ -1,8 +1,7 @@
 <div class="container">
     <div id="logo">
-          <%= link_to(image_tag("https://res.cloudinary.com/dtkqvidoc/image/upload/v1551375142/logo_coacheye-250px-bleu.png"), root_path) %>
-        </div>
-    <div>
+      <%= link_to(image_tag("https://res.cloudinary.com/dtkqvidoc/image/upload/v1551375142/logo_coacheye-250px-bleu.png"), root_path) %>
+    </div>
     <div class="titles" >
       <h3><%= @notification.title %></h3>
     </div>
@@ -15,4 +14,5 @@
 <!-- this is for meta tags, not sure if it works -->
 <% content_for :meta_title, "#{@notification.title} is on #{DEFAULT_META["meta_product_name"]}" %>
 <% content_for :meta_description, @notification.body %>
-<% content_for :meta_image, cl_image_path(@notification.photo.path) %>
+
+

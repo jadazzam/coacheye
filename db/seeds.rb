@@ -9,7 +9,6 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
   <p class="description">How to position your monitor?
   Easy, let\'s start the day together! Align your eyes with the top of your screen, it improves your working conditions.</p>
   <img src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551694619/screen_position.png" width="100%" alt="Image of monitor alignement"/>
-  <p class="description">See you later!</p>
 </div>
 MARKDOWN
 )
@@ -21,7 +20,7 @@ notif2 = Notification.new(title: 'Break time!🌞',
     message: 'Have a coffee and remember the 20-20-20 rule',
     body: <<-MARKDOWN
 <div class="blocks">
-  <img src="https://www.optometrytimes.com/sites/default/files/legacy/3696%20Figure%201_3d7566d9-7019-46d6-ba7a-81549e2b29a3.png" width="100%"/>
+  <img src="https://res.cloudinary.com/korneliukas/image/upload/v1551721362/Component_1_2.png" width="100%"/>
   <p class="description">Grab a coffee or another drink and drink it while looking at an object 20 meters away. You can do this every 20 minutes for 20 seconds to prevent eye strain.</p>
 </div>
 MARKDOWN
