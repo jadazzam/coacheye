@@ -8,7 +8,7 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
 <div class="blocks">
   <p class="description">How to position your monitor?
   Easy, let\'s start the day together! Align your eyes with the top of your screen, it improves your working conditions.</p>
-  <img src="https://www.dataflex-int.com/media/ergonomics/header_2160x1080@1x.jpg" width="100%" alt="Image of monitor alignement"/>
+  <img src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551694619/screen_position.png" width="100%" alt="Image of monitor alignement"/>
   <p class="description">See you later!</p>
 </div>
 MARKDOWN
@@ -77,4 +77,11 @@ notif4.save!
 # MARKDOWN
 # )
 # notif4.save!
+
+
+
+
+
+
+
 
