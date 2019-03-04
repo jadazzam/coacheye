@@ -22,7 +22,7 @@ notif2 = Notification.new(title: 'Break time!🌞',
     body: <<-MARKDOWN
 <div class="blocks">
   <img src="https://www.optometrytimes.com/sites/default/files/legacy/3696%20Figure%201_3d7566d9-7019-46d6-ba7a-81549e2b29a3.png" width="100%"/>
-  <p class="description">Grab a coffee or another drink and drink it while looking at an object 20 meters away. You can do this every 20 minutes(coffee is not neccessary) for 20 seconds to prevent eye strain.</p>
+  <p class="description">Grab a coffee or another drink and drink it while looking at an object 20 meters away. You can do this every 20 minutes for 20 seconds to prevent eye strain.</p>
 </div>
 MARKDOWN
 )
