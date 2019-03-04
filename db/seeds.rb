@@ -9,7 +9,6 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
   <p class="description">How to position your monitor?
   Easy, let\'s start the day together! Align your eyes with the top of your screen, it improves your working conditions.</p>
   <img src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551694619/screen_position.png" width="100%" alt="Image of monitor alignement"/>
-  <p class="description">See you later!</p>
 </div>
 MARKDOWN
 )
