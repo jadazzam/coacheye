@@ -15,38 +15,19 @@ MARKDOWN
 )
 notif1.save!
 
-notif2 = Notification.new(title: 'Lunch break: The 🌞 is here',
+notif2 = Notification.new(title: 'Break time!🌞',
     action: false,
     duration_since_chrome_on: 0,
-    message: 'Keep your sunglasses on, your eyes need protection from the sun’s UV rays',
+    message: 'Have a coffee and remember the 20-20-20 rule',
     body: <<-MARKDOWN
-<div class="flexes">
-  <img src="https://minimalistbaker.com/wp-content/uploads/2017/05/AMAZING-Vegan-Breakfast-Salad-Lemony-greens-sweet-potatoes-blueberries-hummus-and-hemp-seeds-vegan-plantbased-glutenfree-breakfast-recipe-768x1152.jpg" height="700px" width="500px"/>
-  <p class="description">It's sunny outside, put your sunglasses on!
-  Just like your skin, your eyes need protection from the sun’s ultraviolet (UV) rays.
-  Good eye health starts with the food on your plate, nutrients like <strong>omega-3 fatty acids, lutein, zinc, and
-  vitamins C and E</strong> might help ward off age-related vision problems like macular degeneration and cataracts.
-  The right pair of shades will help protect your eyes from the sun's ultraviolet (UV) rays.
-  Too much UV exposureboosts your chances of cataracts and macular degeneration.</p>
+<div class="blocks">
+  <img src="https://www.optometrytimes.com/sites/default/files/legacy/3696%20Figure%201_3d7566d9-7019-46d6-ba7a-81549e2b29a3.png" width="100%"/>
+  <p class="description">Grab a coffee or another drink and drink it while looking at an object 20 meters away. You can do this every 20 minutes(coffee is not neccessary) for 20 seconds to prevent eye strain.</p>
 </div>
 MARKDOWN
 )
 notif2.save!
 
-notif3 = Notification.new(title: 'Coffee time: 5 min break ☕️',
-    action: true,
-    duration_since_chrome_on: 120,
-    message: 'You\'ve been working for too long. Short breaks are important for your eyes\' health and your productivity' ,
-    body: <<-MARKDOWN
-<div class="flexes">
-<p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.
-It's called the 20-20-20 rule: it helps you to resume a normal blink rate (we don't blink while lookng at a computer screen) and stops your eyes from drying out.</p>
- <p class="text-center"> <img src="https://static1.squarespace.com/static/59e943378fd4d2115362e8d3/t/5aa452ba9140b73db67c2751/1520720013988/nathan-dumlao-492751-unsplash.jpg" height="500px" width="600px" alt="Coffee cup"/> </p>
-</div>
-
-MARKDOWN
-)
-notif3.save!
 
 notif4 = Notification.new(title: 'It\'s YogEye time 👀',
     action: false,
@@ -78,10 +59,18 @@ notif4.save!
 # )
 # notif4.save!
 
+# notif3 = Notification.new(title: 'Coffee time: 5 min break ☕️',
+#     action: true,
+#     duration_since_chrome_on: 120,
+#     message: 'You\'ve been working for too long. Short breaks are important for your eyes\' health and your productivity' ,
+#     body: <<-MARKDOWN
+# <div class="flexes">
+# <p class="description text-center">Hey, it's time to grab a coffee and drink it while looking at an an object far away. In addition, do this: every 20 minutes, watch an object at 6 meters for 20 seconds.
+# It's called the 20-20-20 rule: it helps you to resume a normal blink rate (we don't blink while lookng at a computer screen) and stops your eyes from drying out.</p>
+#  <p class="text-center"> <img src="https://static1.squarespace.com/static/59e943378fd4d2115362e8d3/t/5aa452ba9140b73db67c2751/1520720013988/nathan-dumlao-492751-unsplash.jpg" height="500px" width="600px" alt="Coffee cup"/> </p>
+# </div>
 
-
-
-
-
-
+# MARKDOWN
+# )
+# notif3.save!
 
