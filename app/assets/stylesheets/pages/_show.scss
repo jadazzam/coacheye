@@ -12,17 +12,10 @@
 
   p.description {
     padding: 20px 20px;
-
-
   }
 }
 
-.page-wrapper {
-  background: asset_url("blue.png");
-  background-attachment: fixed;
-  background-size: cover;
 
-}
 
 .blocks {
   display: block;
@@ -33,9 +26,7 @@
     padding: 20px;
     width: 100%;
   }
-
 }
-
 
 .flexes {
   display: flex;
@@ -47,8 +38,6 @@
     text-align: justify;
     margin: 0px 38px 35px 0;
   }
-
-
 }
 
 .titles {

@@ -3,9 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 355px;
   padding: 0px 10px;
-  color: #5789a0;
+  background: asset_url("background_footer.png");
+  background-size: cover;
 }
 
 .footer-links {
