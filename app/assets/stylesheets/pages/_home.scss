@@ -1,69 +1,154 @@
-.page-wrapper {
-  min-height: calc(100vh - 170px);
-  background-color: white;
+
+.banner {
+  height: 70vh;
+
+  h1 {
+    color: #303633;
+  }
 }
 
-.list {
+.second-block {
+  background-image: url('https://res.cloudinary.com/coacheye/image/upload/v1551790353/Homepage/2nd_block.svg');
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  height: 80vh;
   align-items: center;
-  font-family: 'Karla';
-  font-weight: lighter;
-  font-size: 30px;
 }
 
-.headers {
+.left-flex-item {
+  margin-left: 120px;
+  margin-right: 220px;
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}
+
+.right-flex-item {
+  margin-right: 120px;
+}
+
+.home-block {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-block {
+  background-image: url('https://res.cloudinary.com/coacheye/image/upload/v1551798148/Homepage/3rd_block.png');
+  min-height: 60vh;
+  color:white;
   text-align: center;
-  font-weight: bolder;
-  font-family: 'Karla';
-  padding: 10px 10px;
-  font-size: 30px;
-  letter-spacing: 2px;
-}
-.scroll {
-  color: #5589A0;
-  margin: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding: 120px;
+  vertical-align: middle;
 }
 
-.card-img {
-  width: 80px;
-  height: 80px;
+.fourth-block {
+  background-image: url('https://res.cloudinary.com/coacheye/image/upload/v1551801648/Homepage/4th_block.png');
+  color: white;
+  padding: 120px;
+  text-align: center;
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
 }
-.eye {
-  width: 100px;
-}
-
-.description-bottom {
- font-weight: lighter;
- font-size: 20px;
-}
-
-.name-team {
-  // font-family: 'Zeyada', cursive;
-  font-weight: lighter;
-  font-size: 20px;
+.product-feature {
+  text-align: center;
+  margin-top: 50px;
 }
 
-.mailto_contact {
-  text-decoration: none;
-  font-family: 'Karla';
-  font-weight: lighter;
-  font-size: 20px;
-  color:  #5589A0;
+
+.product-feature-img {
+  height: 130px;
 }
 
-.mailto_contact:hover {
-  color: #a1ccd6;
-  border: #5589A0;
-  text-decoration: none;
-}
+// .upper-benefits {
+//   display: flex;
+// }
 
-.description {
-  font-weight: lighter;
-  font-size: 30px;
-}
+// .lower-benefits {
+//   display: flex;
+// }
+
+
+
+
+
+
+
+
+// .page-wrapper {
+//   min-height: calc(100vh - 170px);
+//   background-color: white;
+// }
+
+// .list {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-family: 'Karla';
+//   font-weight: lighter;
+//   font-size: 30px;
+// }
+
+// .headers {
+//   text-align: center;
+//   font-weight: bolder;
+//   font-family: 'Karla';
+//   padding: 10px 10px;
+//   font-size: 30px;
+//   letter-spacing: 2px;
+// }
+// .scroll {
+//   color: #5589A0;
+//   margin: auto;
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+//   padding-left: 140px;
+//   padding-right: 140px;
+// }
+
+// .card-img {
+//   width: 80px;
+//   height: 80px;
+// }
+// .eye {
+//   width: 100px;
+// }
+
+// .description-bottom {
+//  font-weight: lighter;
+//  font-size: 20px;
+// }
+
+// .name-team {
+//   // font-family: 'Zeyada', cursive;
+//   font-weight: lighter;
+//   font-size: 20px;
+// }
+
+// .mailto_contact {
+//   text-decoration: none;
+//   font-family: 'Karla';
+//   font-weight: lighter;
+//   font-size: 20px;
+//   color:  #5589A0;
+// }
+
+// .mailto_contact:hover {
+//   color: #a1ccd6;
+//   border: #5589A0;
+//   text-decoration: none;
+// }
+
+// .description {
+//   font-weight: lighter;
+//   font-size: 30px;
+// }
 

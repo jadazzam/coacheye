@@ -28,7 +28,7 @@ MARKDOWN
 notif2.save!
 
 
-notif4 = Notification.new(title: 'It\'s YogEye time 👀',
+notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     action: false,
     duration_since_chrome_on: 0,
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
@@ -38,12 +38,12 @@ notif4 = Notification.new(title: 'It\'s YogEye time 👀',
 Shifting is about moving or rotating your eyeballs from one direction to another.
 Follow the excercises in the video! The tiny eye muscles get more active and healthy with the spurt of blood pumped in from the shifting.</p>
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/ybH5CAJhxso" frameborder="0"
+<iframe width="100%" height="500" src="https://res.cloudinary.com/dtkqvidoc/video/upload/v1551778372/yoga_eye.mp4" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 MARKDOWN
 )
-notif4.save!
+notif3.save!
 
 # notif4 = Notification.new(title: 'Beer break! 🍻',
 #     action: false,
