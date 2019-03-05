@@ -8,8 +8,8 @@
     <div class="notif-content">
       <%= raw Kramdown::Document.new(@notification.body).to_html %>
     </div>
-  </div>
 </div>
+
 
 <!-- this is for meta tags, not sure if it works -->
 <% content_for :meta_title, "#{@notification.title} is on #{DEFAULT_META["meta_product_name"]}" %>
