@@ -5,12 +5,25 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
 
+.dialog {
+  color: white;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  color: white;
+  }
+/*
   body {
   background-color:white;
   background-image:url(images/undraw_server.error500.png);
-  }
+  }*/
 
-  .rails-default-error-page {
+  /*.rails-default-error-page {
     background-color: #EFEFEF;
     color: #2E2F30;
     text-align: center;
@@ -58,12 +71,19 @@
     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
   }
 
-
+*/
   </style>
 </head>
 
 <body class="rails-default-error-page">
   <!-- This file lives in public/500.html -->
+  <div>
+    <a href="/">Let's go back !</a>
+  </div>
+
+  <div class="error_500">
+    <img class="not_found" src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551782074/page_error_500.png" height="800px">
+  </div>
 
   <div class="dialog">
     <div>
