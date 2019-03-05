@@ -2,8 +2,7 @@
   // display: block;
   // align-items: center;
   // justify-content: space-between;
-  height: 800px;
-  margin: 40px auto;
+  margin: 85px auto;
   font-size: 20px;
   // width: 900px;
   letter-spacing: 2px;
@@ -13,16 +12,8 @@
   p.description {
     padding: 20px 20px;
 
-
   }
 }
-
-// .page-wrapper {
-//   background: asset_url("blue.png");
-//   background-attachment: fixed;
-//   background-size: cover;
-
-// }
 
 .blocks {
   display: block;
@@ -32,10 +23,9 @@
   p.description {
     padding: 20px;
     width: 100%;
+    text-align: center;
   }
-
 }
-
 
 .flexes {
   display: flex;
@@ -47,8 +37,6 @@
     text-align: justify;
     margin: 0px 38px 35px 0;
   }
-
-
 }
 
 .titles {
@@ -62,17 +50,42 @@
   color: #5186A1;
   h3 {
     font-size: 35px;
+    font-weight: bold;
     }
 }
 
-#logo {
-  position: absolute;
 
-  left: 30px;
-  top: 30px;
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
 
-   img {
-    width: 56px;
-  }
 }
 
+.conseil {
+  background-color: #FEB98F;
+  border-radius: 70px;
+  width: 348px;
+  height: 222px;
+  left: 716px;
+  top: 1200px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.yoga {
+  padding: 50px;
+
+}
+
+
+.nuage {
+  top: 70px;
+  right: 30px;
+  position: absolute;
+}
