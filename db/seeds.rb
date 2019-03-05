@@ -45,18 +45,15 @@ notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
     body: <<-MARKDOWN
 <div class="blocks">
-<<<<<<< HEAD
 <p class="description">YogEye provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.
 Shifting is about moving or rotating your eyeballs from one direction to another.
 Follow the excercises in the video! The tiny eye muscles get more active and healthy with the spurt of blood pumped in from the shifting.</p>
 
 <iframe width="100%" height="500" src="https://res.cloudinary.com/dtkqvidoc/video/upload/v1551778372/yoga_eye.mp4" frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-=======
   <p class="video"> <iframe width="100%" height="500" src="https://res.cloudinary.com/coacheye/video/upload/v1551796064/Notification3/yoga_eye.mp4" frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
   <p class="yoga"><img src="https://res.cloudinary.com/coacheye/image/upload/v1551797725/Notification3/Notification3_Yoga_image.png" width="100%"/></p>
->>>>>>> master
 </div>
 MARKDOWN
 )
