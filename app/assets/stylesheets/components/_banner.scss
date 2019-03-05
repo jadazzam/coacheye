@@ -1,14 +1,3 @@
-.banner #logo {
-  position: absolute;
-
-    left: 40px;
-    top: 40px;
-
-  img {
-    width: 96px;
-  }
-}
-
 .banner {
   background-size: cover;
   background-position: center;
@@ -29,35 +18,20 @@
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: #303633;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Karla';
   letter-spacing: 3px;
 }
 
 .banner p {
-  font-size: 30px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+  color: #303633;
   letter-spacing: 1px;
 }
 
-.banner .mask {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(229, 135, 127, 0.36));
-}
-
-p {
-  margin: 27px 0 35px 0;
-  font-size: 27px;
-}
 
 header .overlay {
   position: absolute;
@@ -68,23 +42,19 @@ header .overlay {
   overflow: hidden;
 }
 
-header video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-video {
-  display: inline-block;
-  vertical-align: baseline;
-}
-
-
-
-
+// header video {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+//   z-index: 0;
+//   -webkit-transform: translateX(-50%) translateY(-50%);
+//   transform: translateX(-50%) translateY(-50%);
+// }
+// video {
+//   display: inline-block;
+//   vertical-align: baseline;
+// }
