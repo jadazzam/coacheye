@@ -12,17 +12,18 @@
 
   p.description {
     padding: 20px 20px;
+    text-align: center;
 
 
   }
 }
 
-.page-wrapper {
-  background: asset_url("blue.png");
-  background-attachment: fixed;
-  background-size: cover;
+// .page-wrapper {
+//   background: asset_url("blue.png");
+//   background-attachment: fixed;
+//   background-size: cover;
 
-}
+// }
 
 .blocks {
   display: block;
@@ -76,3 +77,26 @@
   }
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.conseil {
+  background-color: #FEB98F;
+  border-radius: 70px;
+  width: 348px;
+  height: 222px;
+  left: 716px;
+  top: 1200px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
