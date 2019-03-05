@@ -19,7 +19,7 @@ fetch("https://www.coacheye.fr/api/v1/notifications")
     clearPreviouses(data);
     data.forEach((notif) => {
       notification(notif, seconds);
-      seconds += 2000;
+      seconds += 40000;
     });
     chrome.notifications.onClicked.addListener(url => {
     chrome.tabs.create({url: url})
