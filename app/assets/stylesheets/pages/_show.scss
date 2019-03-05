@@ -2,8 +2,8 @@
   // display: block;
   // align-items: center;
   // justify-content: space-between;
-  height: 800px;
-  margin: 40px auto;
+  height: 100vh;
+  margin: 85px auto;
   font-size: 20px;
   // width: 900px;
   letter-spacing: 2px;
@@ -24,6 +24,7 @@
   p.description {
     padding: 20px;
     width: 100%;
+    text-align: center;
   }
 }
 
@@ -50,19 +51,20 @@
   color: #5186A1;
   h3 {
     font-size: 35px;
+    font-weight: bold;
     }
 }
 
-#logo {
-  position: absolute;
+// #logo {
+//   position: absolute;
 
-  left: 30px;
-  top: 30px;
+//   left: 30px;
+//   top: 30px;
 
-   img {
-    width: 56px;
-  }
-}
+//    img {
+//     width: 56px;
+//   }
+// }
 
 .icons {
   display: flex;
@@ -87,3 +89,12 @@
   padding: 20px;
 
 }
+
+.yoga {
+  padding: 50px;
+
+}
+
+.video {
+
+ }

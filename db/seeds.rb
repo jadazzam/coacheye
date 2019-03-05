@@ -45,9 +45,9 @@ notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
     body: <<-MARKDOWN
 <div class="blocks">
-  <iframe width="100%" height="500" src="https://res.cloudinary.com/coacheye/video/upload/v1551796064/Notification3/yoga_eye.mp4" frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551794173/Notification3/Yoga_image.png" width="100%"/>
+  <p class="video"> <iframe width="100%" height="500" src="https://res.cloudinary.com/coacheye/video/upload/v1551796064/Notification3/yoga_eye.mp4" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <p class="yoga"><img src="https://res.cloudinary.com/coacheye/image/upload/v1551797725/Notification3/Notification3_Yoga_image.png" width="100%"/></p>
 </div>
 MARKDOWN
 )
