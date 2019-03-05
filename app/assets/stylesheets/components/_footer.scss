@@ -1,12 +1,11 @@
 .footer {
-  background:linear-gradient(#51A3AA, #4B859E);
-  border-top: 3px solid #5789a0;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 70px;
   padding: 0px 10px;
-  color: rgba(0,0,0,0.3);
+  color: #5789a0;
 }
 
 .footer-links {
@@ -14,8 +13,7 @@
   align-items: center;
 }
 .footer-links a {
-  color: #FFFFFF;
-  opacity: 0.25;
+  color: #5789a0;
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
@@ -24,10 +22,10 @@
   opacity: 1;
 }
 .footer .fa-heart {
-  color: #FFFFFF;
+  color: #5789a0;
 }
 
 .footer-copyright {
-  color: #FFFFFF;
-  opacity: 0.25;
+  color: #5789a0;
+  font-weight: lighter;
 }
