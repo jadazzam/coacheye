@@ -14,21 +14,32 @@ MARKDOWN
 )
 notif1.save!
 
-notif2 = Notification.new(title: 'Break time!🌞',
+notif2 = Notification.new(title: 'How do I benefit from my coffee break?',
     action: false,
     duration_since_chrome_on: 0,
     message: 'Have a coffee and remember the 20-20-20 rule',
     body: <<-MARKDOWN
 <div class="blocks">
-  <img src="https://res.cloudinary.com/korneliukas/image/upload/v1551721362/Component_1_2.png" width="100%"/>
-  <p class="description">Grab a coffee or another drink and drink it while looking at an object 20 meters away. You can do this every 20 minutes for 20 seconds to prevent eye strain.</p>
+  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790971/Notification2/Component_2.png" width="100%"/>
+  <p class="description">Things you can do without leaving your desk</p>
+  <div class="icons">
+    <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_2_2.png"/>
+    <p class="conseil"> Every 20 minutes look away from your screen and look at an object 6 meters away for 20 seconds.</p>
+  </div>
+  <div class="icons">
+    <p class="conseil"> When you feel your eyes are getting tired, turn on some calming music or bird sounds and listen to it for five minutes with your eyes closed.</p>
+    <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_3_1.png"/>
+  </div>
+  <div class="icons">
+    <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_1_1.png"/>
+    <p class="conseil">Rub your palms together  untl they heat up and then put them over your closed eyes. The heat from the hands will help to relax eye muscles.</p>
+  </div>
 </div>
 MARKDOWN
 )
 notif2.save!
 
-
-notif4 = Notification.new(title: 'It\'s YogEye time 👀',
+notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     action: false,
     duration_since_chrome_on: 0,
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
@@ -43,7 +54,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 </div>
 MARKDOWN
 )
-notif4.save!
+notif3.save!
 
 # notif4 = Notification.new(title: 'Beer break! 🍻',
 #     action: false,
