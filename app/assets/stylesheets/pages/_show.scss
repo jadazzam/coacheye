@@ -2,7 +2,6 @@
   // display: block;
   // align-items: center;
   // justify-content: space-between;
-  height: 100vh;
   margin: 85px auto;
   font-size: 20px;
   // width: 900px;
@@ -55,16 +54,6 @@
     }
 }
 
-// #logo {
-//   position: absolute;
-
-//   left: 30px;
-//   top: 30px;
-
-//    img {
-//     width: 56px;
-//   }
-// }
 
 .icons {
   display: flex;
@@ -98,3 +87,10 @@
 .video {
 
  }
+
+
+.nuage {
+  top: 70px;
+  right: 30px;
+  position: absolute;
+}
