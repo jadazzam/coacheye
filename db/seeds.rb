@@ -35,7 +35,7 @@ notif2 = Notification.new(title: 'Coffee break time! ☕',
     body: <<-MARKDOWN
 <div class="blocks">
   <p class="description">How can I benefit from my coffee break?</p>
-  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551867514/Notification2/notif2.png" width="100%"/>
+  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551872683/Notification2/notif2_-_last.png" width="100%"/>
   <p class="description">Other things you can do without leaving your desk</p>
   <div class="icons">
     <p class="conseil"> Turn on some calming music or bird sounds and listen to it for five minutes with your eyes closed.</p>
