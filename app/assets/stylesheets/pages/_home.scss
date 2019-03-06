@@ -44,6 +44,11 @@
 
   img {
     width: 400px;
+.right-flex-item {
+  margin-right: 120px;
+  img {
+    vertical-align: middle;
+    display: flex;
   }
 }
 
