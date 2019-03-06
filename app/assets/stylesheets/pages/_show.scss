@@ -21,9 +21,12 @@
   text-align: justify;
 
   p.description {
+    margin-top: 30px;
     padding: 20px;
     width: 100%;
     text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
   }
 }
 
@@ -41,7 +44,7 @@
 
 .titles {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Karla';
   margin-bottom: 20px;
   padding: 10px 10px;
   font-size: 35px;

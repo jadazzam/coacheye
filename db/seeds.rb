@@ -7,7 +7,7 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
     body: <<-MARKDOWN
 <div class="blocks">
   <p class="description">How do I protect my eyes while I'm working?</p>
-  <img src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551694619/screen_position.png" width="100%" alt="Image of monitor alignement"/>
+  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551867401/Notification1/notif1.png" width="100%" alt="Image of monitor alignement"/>
   <p class="description">Checklist to correctly position your monitor</p>
   <div class="checklist">
     <div class="divleft">
@@ -28,25 +28,22 @@ MARKDOWN
 )
 notif1.save!
 
-notif2 = Notification.new(title: 'How do I benefit from my coffee break?',
+notif2 = Notification.new(title: 'Coffee break time! ☕',
     action: false,
     duration_since_chrome_on: 0,
     message: 'Have a coffee and remember the 20-20-20 rule',
     body: <<-MARKDOWN
 <div class="blocks">
-  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790971/Notification2/Component_2.png" width="100%"/>
-  <p class="description">Things you can do without leaving your desk</p>
+  <p class="description">How can I benefit from my coffee break?</p>
+  <img src="https://res.cloudinary.com/coacheye/image/upload/v1551867514/Notification2/notif2.png" width="100%"/>
+  <p class="description">Other things you can do without leaving your desk</p>
   <div class="icons">
-    <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_2_2.png"/>
-    <p class="conseil"> Every 20 minutes look away from your screen and look at an object 6 meters away for 20 seconds.</p>
-  </div>
-  <div class="icons">
-    <p class="conseil"> When you feel your eyes are getting tired, turn on some calming music or bird sounds and listen to it for five minutes with your eyes closed.</p>
+    <p class="conseil"> Turn on some calming music or bird sounds and listen to it for five minutes with your eyes closed.</p>
     <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_3_1.png"/>
   </div>
   <div class="icons">
     <img src="https://res.cloudinary.com/coacheye/image/upload/v1551790970/Notification2/karo_1_1.png"/>
-    <p class="conseil">Rub your palms together  untl they heat up and then put them over your closed eyes. The heat from the hands will help to relax eye muscles.</p>
+    <p class="conseil">Rub your palms together until they heat up and then put them over your closed eyes to relax the muscles.</p>
   </div>
 </div>
 MARKDOWN
@@ -59,13 +56,17 @@ notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
     body: <<-MARKDOWN
 <div class="blocks">
-  <p class="video"> <iframe width="100%" height="500" src="https://res.cloudinary.com/coacheye/video/upload/v1551796064/Notification3/yoga_eye.mp4" frameborder="0"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+  <video controls autoplay=false width="102%" height="102%">
+  <source src="https://res.cloudinary.com/coacheye/video/upload/v1551796064/Notification3/yoga_eye.mp4" type="video/mp4">
+  </video>
+  <p class="description">Benefits of Yoga</p>
   <p class="yoga"><img src="https://res.cloudinary.com/coacheye/image/upload/v1551797725/Notification3/Notification3_Yoga_image.png" width="100%"/></p>
 </div>
 MARKDOWN
 )
 notif3.save!
+
+
 
 # notif4 = Notification.new(title: 'Beer break! 🍻',
 #     action: false,
