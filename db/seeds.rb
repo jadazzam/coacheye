@@ -6,9 +6,23 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
     message: 'Click here to learn how to comfort your eyes and optimize your productivity',
     body: <<-MARKDOWN
 <div class="blocks">
-  <p class="description">How to position your monitor?
-  Easy, let\'s start the day together! Align your eyes with the top of your screen, it improves your working conditions.</p>
+  <p class="description">How do I protect my eyes while I'm working?</p>
   <img src="https://res.cloudinary.com/dtkqvidoc/image/upload/v1551694619/screen_position.png" width="100%" alt="Image of monitor alignement"/>
+  <p class="description">Checklist to correctly position your monitor</p>
+  <div class="checklist">
+    <div class="divleft">
+      <p class="idea right">Place the monitor in a location that eliminates glare on the screen.</p>
+    </div>
+    <div class="divright">
+      <p class="idea left">Place the monitor directly in front of you.</p>
+    </div>
+    <div class="divleft">
+      <p class="idea right">Place the top line of the screen at or slighty below eye level.</p>
+    </div>
+    <div class="divright">
+      <p class="idea left">Place the monitor at least an arm's length away from you.</p>
+    </div>
+  </div>
 </div>
 MARKDOWN
 )

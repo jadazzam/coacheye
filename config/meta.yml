@@ -1,5 +1,5 @@
 meta_product_name: "CoachEye"
 meta_title: "Look after your eyes with CoachEye"
 meta_description: "Your first vision coach adapted to your needs"
-meta_image: "cover.png" # should exist in `app/assets/images/`
+meta_image: "icons/logo.png" # should exist in `app/assets/images/`
 twitter_account: "@coacheye"   # required for Twitter Cards

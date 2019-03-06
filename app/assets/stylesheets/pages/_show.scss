@@ -62,19 +62,95 @@
   margin-top: 30px;
 }
 
-.conseil {
-  background-color: #FEB98F;
-  border-radius: 70px;
-  width: 348px;
-  height: 222px;
-  left: 716px;
-  top: 1200px;
-  font-size: 20px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  padding: 20px;
+.checklist {
+  padding: 30px;
+  width: 856px;
+  margin: 0 auto;
+
+  .divleft {
+    width: 377px;
+    padding: 32px 0;
+    border-right: 3px solid #5186A1;
+  }
+
+  .divright {
+    width: 376px;
+    padding: 32px 0;
+    margin-left: 374px;
+    border-left: 3px solid #5186A1;
+  }
+
+  .idea {
+    background-color: #FEB98F;
+    border-radius: 70px;
+    width: 348px;
+    height: 222px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    // margin: 80px 0px;
+    margin: 0;
+  }
+
+  .gauche {
+    left: 400px;
+  }
+  .droite {
+    // left: 200px;
+  }
+
+  .right {
+    margin-right: 30px;
+    &:before{
+      content: "*";
+      background-color: #5186A1;
+      width: 106px;
+      height: 106px;
+      position: absolute;
+      top: -53px;
+      right: -80px;
+      border-radius: 50%;
+      padding-top: 37px;
+      font-size: 30px;
+      color: white;
+    }
+  }
+
+  .left {
+    margin-left: 30px;
+    &:before{
+      content: "*";
+      background-color: #5186A1;
+      width: 106px;
+      height: 106px;
+      position: absolute;
+      top: -53px;
+      left: -80px;
+      border-radius: 50%;
+      padding-top: 37px;
+      font-size: 30px;
+      color: white;
+    }
+  }
 }
+
+
+.conseil {
+    background-color: #FEB98F;
+    border-radius: 70px;
+    width: 348px;
+    height: 222px;
+    left: 716px;
+    top: 1200px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
 
 .yoga {
   padding: 50px;
@@ -84,8 +160,10 @@
  }
 
 
+
 .nuage {
   top: 70px;
   right: 30px;
   position: absolute;
 }
+
