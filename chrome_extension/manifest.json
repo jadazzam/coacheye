@@ -24,10 +24,10 @@
     "default_icon": "images/logo.png"
   },
   "icons": {
-    "16": "images/logo.png",
-    "32": "images/logo.png",
-    "48": "images/logo.png",
-    "128": "images/logo.png"
+    "16": "../assets/images/icons/logo.png",
+    "32": "../assets/images/icons/logo.png",
+    "48": "../assets/images/icons/logo.png",
+    "128": "../assets/images/icons/logo.png"
   }
 }
 
