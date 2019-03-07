@@ -16,9 +16,19 @@
   font-weight: bold;
   color: #5186A1;
 }
-// Screen alignement notif
 
-// Coffee break notif
+ .notif-content {
+  margin: 85px auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: #5186A1;
+
+  p.description {
+    padding: 20px 20px;
+  }
+}
+
 .notif-block {
   text-align: center;
   width: 50%;
@@ -32,63 +42,8 @@
   }
 }
 
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
-  .conseil {
-    flex: 0 1 50%;
-    margin: 20px 0 0;
-    background-color: #FEB98F;
-    border-radius: 50px;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
-    color: #5186A1;
-  }
-  img {
-    max-height: 25vh;
-    margin: 20px 0 0;
-  }
 
-}
-
-
-
-// TO DO
-.notif-content {
-  // display: block;
-  // align-items: center;
-  // justify-content: space-between;
-  margin: 85px auto;
-  font-size: 20px;
-  // width: 900px;
-  letter-spacing: 2px;
-  text-align: justify;
-  color: #5186A1;
-
-  p.description {
-    padding: 20px 20px;
-  }
-}
-
-
-
-.flexes {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  p.description {
-    padding: 0px 20px;
-    width: 500px;
-    text-align: justify;
-    margin: 0px 38px 35px 0;
-  }
-}
-
-
-
+// Screen alignement notif
 
 .checklist {
   padding: 30px;
@@ -96,7 +51,7 @@
   margin: 0 auto;
 
   .divleft {
-    width: 50%;
+    width: 250px;
     padding: 32px 0;
     border-right: 3px solid #5186A1;
   }
@@ -104,7 +59,7 @@
   .divright {
     width: 50%;
     padding: 32px 0;
-    margin-left: 50%;
+    margin-left: 249px;
     border-left: 3px solid #5186A1;
   }
 
@@ -126,9 +81,7 @@
   .gauche {
     left: 400px;
   }
-  .droite {
-    // left: 200px;
-  }
+
 
   .right {
     margin-right: 30px;
@@ -166,15 +119,40 @@
 }
 
 
+// Coffee break notif
 
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  .conseil {
+    flex: 0 1 50%;
+    margin: 20px 0 0;
+    background-color: #FEB98F;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #5186A1;
+  }
+  img {
+    max-height: 25vh;
+    margin: 20px 0 0;
+  }
+
+}
+
+
+
+// Eye yoga notif
 
 
 .yoga {
   padding: 50px;
 }
 
-.video {
- }
 
 
 
