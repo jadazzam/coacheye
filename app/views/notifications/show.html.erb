@@ -1,26 +1,10 @@
-<div class="container">
-  <div class="row">
-    <div class="nuage col-xs-4 col-xs-offset-8 ">
-      <img src="https://res.cloudinary.com/coacheye/image/upload/v1551800584/cloud.png"/>
-    </div>
-  </div>
-
-  <div class="titles">
-    <h3><%= @notification.title %></h3>
-  </div>
-
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="notif-content">
-          <%= raw Kramdown::Document.new(@notification.body).to_html %>
-      </div>
-    </div>
-  </div>
+<div class="notif-container">
+  <img class="nuage" src="https://res.cloudinary.com/coacheye/image/upload/v1551800584/cloud.png"/>
+  <h3 class="title"><%= @notification.title %></h3>
+  <%= raw Kramdown::Document.new(@notification.body).to_html %>
 </div>
 
 
 <!-- this is for meta tags, not sure if it works -->
 <% content_for :meta_title, "#{@notification.title} is on #{DEFAULT_META["meta_product_name"]}" %>
 <% content_for :meta_description, @notification.body %>
-
-

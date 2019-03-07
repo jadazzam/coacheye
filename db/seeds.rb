@@ -5,7 +5,7 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
     duration_since_chrome_on: 0,
     message: 'Click here to learn how to comfort your eyes and optimize your productivity',
     body: <<-MARKDOWN
-<div class="blocks">
+<div class="notif-block">
   <p class="description">How do I protect my eyes while I'm working?</p>
   <img src="https://res.cloudinary.com/coacheye/image/upload/v1551867401/Notification1/notif1.png" width="100%" alt="Image of monitor alignement"/>
   <p class="description">Checklist to correctly position your monitor</p>
@@ -33,7 +33,7 @@ notif2 = Notification.new(title: 'Coffee break time! ☕',
     duration_since_chrome_on: 0,
     message: 'Have a coffee and remember the 20-20-20 rule',
     body: <<-MARKDOWN
-<div class="blocks">
+<div class="notif-block">
   <p class="description">How can I benefit from my coffee break?</p>
   <img src="https://res.cloudinary.com/coacheye/image/upload/v1551872683/Notification2/notif2_-_last.png" width="100%"/>
   <p class="description">Other things you can do without leaving your desk</p>
@@ -55,7 +55,7 @@ notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     duration_since_chrome_on: 0,
     message: 'Yoga provides a series of eye exercises that improves the functioning of the eyes and helps to overcome various eye-related problems.',
     body: <<-MARKDOWN
-<div class="blocks">
+<div class="notif-block">
   <video controls autoplay=false width="102%" height="102%">
   <source src="https://res.cloudinary.com/coacheye/video/upload/v1551878093/Notification3/yoga_eye.mp4" type="video/mp4">
   </video>
