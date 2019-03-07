@@ -67,26 +67,26 @@
 
 .checklist {
   padding: 30px;
-  width: 856px;
+  width: 100%;
   margin: 0 auto;
 
   .divleft {
-    width: 377px;
+    width: 50%;
     padding: 32px 0;
     border-right: 3px solid #5186A1;
   }
 
   .divright {
-    width: 376px;
+    width: 50%;
     padding: 32px 0;
-    margin-left: 374px;
+    margin-left: 50%;
     border-left: 3px solid #5186A1;
   }
 
   .idea {
     background-color: #FEB98F;
     border-radius: 70px;
-    width: 348px;
+    width: 300px;
     height: 222px;
     font-size: 20px;
     text-align: center;
@@ -108,7 +108,7 @@
   .right {
     margin-right: 30px;
     &:before{
-      content: "*";
+      content: "❤";
       background-color: #5186A1;
       width: 106px;
       height: 106px;
@@ -125,7 +125,7 @@
   .left {
     margin-left: 30px;
     &:before{
-      content: "*";
+      content: "❤";
       background-color: #5186A1;
       width: 106px;
       height: 106px;
@@ -165,8 +165,10 @@
 
 
 .nuage {
-  top: 70px;
-  right: 30px;
-  position: absolute;
+  height: 0;
+}
+
+.nuage>img {
+  width: 100%;
 }
 

@@ -1,12 +1,20 @@
 <div class="container">
-  <div class="nuage">
-    <img src="https://res.cloudinary.com/coacheye/image/upload/v1551800584/cloud.png"/>
+  <div class="row">
+    <div class="nuage col-xs-4 col-xs-offset-8 ">
+      <img src="https://res.cloudinary.com/coacheye/image/upload/v1551800584/cloud.png"/>
+    </div>
   </div>
-  <div class="titles" >
+
+  <div class="titles">
     <h3><%= @notification.title %></h3>
   </div>
-  <div class="notif-content">
-    <%= raw Kramdown::Document.new(@notification.body).to_html %>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="notif-content">
+          <%= raw Kramdown::Document.new(@notification.body).to_html %>
+      </div>
+    </div>
   </div>
 </div>
 
