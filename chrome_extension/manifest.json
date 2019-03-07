@@ -1,5 +1,6 @@
 {
   "name": "Coacheye",
+  "short_name": "Coacheye",
   "version": "1.0",
   "description": "Protect your eyesight!",
   "homepage_url": "http://www.coacheye.fr",
@@ -24,10 +25,10 @@
     "default_icon": "images/logo.png"
   },
   "icons": {
-    "16": "../assets/images/icons/logo.png",
-    "32": "../assets/images/icons/logo.png",
-    "48": "../assets/images/icons/logo.png",
-    "128": "../assets/images/icons/logo.png"
+    "16": "../images/icons/seize.png",
+    "32": "../images/icons/trentedeux.png",
+    "48": "../images/icons/quarantehuit.png",
+    "128": "../images/icons/centvingthuit.png"
   }
 }
 

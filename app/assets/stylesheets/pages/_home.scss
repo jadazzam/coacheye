@@ -1,3 +1,7 @@
+h2 {
+  font-size: 24px;
+}
+
 .banner {
   height: 50vh;
 
@@ -27,7 +31,6 @@
 
   h2 {
     color: white;
-    font-size: 24px;
   }
 
   p {
@@ -38,16 +41,17 @@
   }
 }
 
-
-.right-flex-item img {
-  width: 400px;
+.right-flex-item {
 
   img {
     width: 400px;
+}
+}
+
+
 .right-flex-item {
   margin-right: 120px;
   img {
-    vertical-align: middle;
     display: flex;
   }
 }
@@ -63,9 +67,11 @@
   color:white;
   text-align: center;
   padding: 120px;
-  vertical-align: middle;
-  font-size: 30px;
   font-weight: lighter;
+
+  p {
+    font-size: 21px;
+  }
 }
 
 .fourth-block {
@@ -80,19 +86,38 @@
   }
   p {
     margin: 18px;
+    font-weight: lighter;
+    font-size: 21px;
   }
 }
 
 .product-feature {
   text-align: center;
   margin-top: 50px;
+  flex: 0 1 50%;
+  // min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .product-feature-img {
-  height: 130px;
+  // height: 130px;
+  display: flex;
+  align-items: center;
+  height: 120px;
+  margin: 20px;
 }
 
 
+// new benefit container
 
-
-
+.benefit-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  flex-wrap: wrap;
+}
