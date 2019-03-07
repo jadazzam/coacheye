@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 378px;
+  height: 180px;
   padding: 0px 10px;
   background: asset_url("background_footer.png");
   background-size: cover;
@@ -12,9 +12,7 @@
 .footer-links {
   display: flex;
   align-items: center;
-  margin: 100px;
-  margin-top: 152px;
-  padding-top: 48px;
+  margin-top: 100px;
 }
 
 .footer-links a {
@@ -35,9 +33,6 @@
 .footer-copyright a {
   color: #5789a0!important;
   text-decoration: none;
-  font-size: 20px;
-  padding-left: 90px;
-  margin-bottom: -57px;
 }
 
 .footer-copyright a:hover,
@@ -47,16 +42,18 @@ a:hover {
 }
 
 .footer-copyright {
-  padding-left: 65px;
-  padding: 70px;
-  margin-bottom: -101px;
-  margin: -75px;
+  display: flex;
+  flex-direction: column;
+  a {
+    padding-top: 10px;
+  }
 }
 
 #footer-coacheye-inc {
   color: #5789a0;
   font-size: 18px;
   margin: 15px;
+  margin-right: 0;
   padding-bottom: 0px;
 }
 
