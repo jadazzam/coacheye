@@ -1,16 +1,21 @@
-<div class="footer" <%= 'style="background-color: #5589a0;"' if params[:action] == "home" %>>
-  <div class="footer-copyright">
-     <a href="#">Terms & Conditions</a>
-     <a href="#">Pivacy policy</a>
-     <a href="#">Work with us</a>
-     <a href="#">Contact us</a>
+
+<% if params[:action] == "home" %>
+  <div class="footer" style="background-color: #5589a0;">
+<% else %>
+  <div class="footer">
+<% end %>
+    <div class="footer-copyright">
+       <a href="#">Terms & Conditions</a>
+       <a href="#">Pivacy policy</a>
+       <a href="#">Work with us</a>
+       <a href="#">Contact us</a>
+    </div>
+    <div class="footer-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <p id="footer-coacheye-inc">© 2019 Coacheye</p>
+    </div>
   </div>
-  <div class="footer-links">
-    <a href="#"><i class="fab fa-github"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-    <p id="footer-coacheye-inc">© 2019 Coacheye</p>
-  </div>
-</div>
