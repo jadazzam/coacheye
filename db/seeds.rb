@@ -57,7 +57,7 @@ notif3 = Notification.new(title: 'It\'s YogEye time 👀',
     body: <<-MARKDOWN
 <div class="notif-block">
   <video controls autoplay=false width="102%" height="102%">
-  <source src="https://res.cloudinary.com/coacheye/video/upload/v1551878093/Notification3/yoga_eye.mp4" type="video/mp4">
+  <source src="https://res.cloudinary.com/coacheye/video/upload/v1551978596/Notification3/yoga_eye.mp4" type="video/mp4">
   </video>
   <p class="description">Benefits of Yoga</p>
   <p class="yoga"><img src="https://res.cloudinary.com/coacheye/image/upload/v1551797725/Notification3/Notification3_Yoga_image.png" width="100%"/></p>
