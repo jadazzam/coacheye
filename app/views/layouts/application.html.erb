@@ -20,13 +20,13 @@
      <%= favicon_link_tag asset_path('icons/logo.png') %>
   </head>
   <body>
-  <% unless action_name == "home" %>
-    <%= render 'shared/navbar'%>
-    <%= render 'shared/flashes' %>
-  <% end %>
-  <!--     <div class="page-wrapper"> -->
-        <%= yield %>
-      <!-- </div> -->
+    <% unless action_name == "home" %>
+      <%= render 'shared/navbar'%>
+      <%= render 'shared/flashes' %>
+    <% end %>
+
+    <%= yield %>
+
     <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
