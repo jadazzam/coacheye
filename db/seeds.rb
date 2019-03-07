@@ -10,19 +10,19 @@ notif1 = Notification.new(title: 'Protect your eyes while you work 💪',
   <img src="https://res.cloudinary.com/coacheye/image/upload/v1551867401/Notification1/notif1.png" width="100%" alt="Image of monitor alignement"/>
   <p class="description">Checklist to correctly position your monitor</p>
   <div class="checklist">
-    <div class="divleft">
-      <p class="idea right">Place the monitor in a location that eliminates glare on the screen.</p>
-    </div>
-    <div class="divright">
-      <p class="idea left">Place the monitor directly in front of you.</p>
-    </div>
-    <div class="divleft">
-      <p class="idea right">Place the top line of the screen at or slighty below eye level.</p>
-    </div>
-    <div class="divright">
-      <p class="idea left">Place the monitor at least an arm's length away from you.</p>
-    </div>
+  <div class="left">
+    <p>Place the monitor in a location that eliminates glare on the screen.</p>
   </div>
+  <div class="right">
+    <p>Place the monitor directly in front of you.</p>
+  </div>
+  <div class="left">
+    <p>Place the top line of the screen at or slighty below eye level.</p>
+  </div>
+  <div class="right">
+    <p>Place the monitor at least an arm's length away from you.</p>
+  </div>
+</div>
 </div>
 MARKDOWN
 )
